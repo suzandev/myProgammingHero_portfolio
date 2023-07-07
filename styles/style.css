@@ -13,6 +13,7 @@ body {
   margin-right: auto;
   padding: 2px;
   font-family: "Open Sans", sans-serif;
+  background-color: #ddd;
 }
 
 .header {
@@ -200,7 +201,29 @@ nav a {
 
 footer {
   display: flex;
+  gap: 100px;
   background: #fff8f3;
   margin-top: 100px;
   padding: 130px 200px;
+}
+
+.footer_column {
+  width: 50%;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 35px;
+  color: #757575;
+  border-radius: 5px;
+  background: #fff;
+  border: none;
+  width: 100%;
+}
+
+.social_links {
+  margin-right: 25px;
 }
