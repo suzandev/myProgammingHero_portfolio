@@ -46,12 +46,14 @@ body {
   text-align: center;
   font-size: 35px;
   font-weight: 700;
+  margin-bottom: 30px;
 }
 
 .section_description {
   color: #757575;
   text-align: center;
   font-size: 18px;
+  margin-bottom: 40px;
 }
 
 nav {
@@ -128,6 +130,14 @@ nav a {
 .about_info_container {
   display: flex;
   justify-content: space-around;
+}
+
+.about_info {
+  text-align: center;
+}
+
+#what_i_do_description {
+  padding: 30px 150px;
 }
 
 main {
